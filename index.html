@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="tasks.css">
 </head>
 
 <body>
@@ -15,68 +14,90 @@
     </header>
 
     <main>
+        <section class="about">
         <h2>Так що ж це таке?</h2>
         <p class="text-git">GitHub — це платформа для зберігання коду та командної роботи, що використовує систему
             контролю версій Git. Вона допомагає відстежувати зміни в проєкті, дозволяє кільком розробникам працювати над
             одним кодом одночасно, зберігаючи всі зміни.</p>
         <p class="boring"> Але всі ми знаємо що читати інформацію це скучно, тому пропоную зробити перше практичне
             задвання!!!!!!</p>
-
+        </section>
         <section class="practial-task">
             <p class="task">Так що ж потрібно зробити???</p>
             <ul class="steps">
-                <li>
+                <li class="practice">
                     Крок 1: потрібно перейти ось за цим посиланням
                 </li>
                 <a id="link" href="https://github.com/Vitaliiir16/task-for-1-course">Тицяй сюди</a>
-                <li>
+                <li class="practice">
                     Крок 2: тикнути на кнопку Code, дивіться на зображення
                 </li>
                 <div class="foto">
                     <img id="code" src="code.jpg">
                     <img id="code" src="create-codespace.jpg">
                 </div>
-                <li>
-                    Крок 3: У вас завантажинться онлайн код спейс, потрібно зайти в файл index.html
+                <li class="practice">
+                    Крок 3: У вас запуститься онлайн код спейс, потрібно зайти в файл index.html
                 </li>
                 <img id="index" src="index.jpg">
-                <li>
-                    Крок 4: Знайти рядок №47 та додати інформацію про себе. (в коді є пояснення як це зробити)
+                <li class="practice">
+                    Крок 4: Знайти рядок №82 та додати інформацію про себе. (в коді є пояснення як це зробити)
                 </li>
-                <li>
+                <li class="practice">
                     Крок 5: Після того як ви додали свої дані, ваш код буде виглядати ось так:
                 </li>
                 <img id="html-code" src="code-html.png">
-                <li>Крок 6: щоб подивитись на результат треба запустити локальний сервер,в тремінал пишете цю команду:
+                <li class="practice">Крок 6: щоб подивитись на результат треба запустити локальний сервер,в тремінал пишете цю команду:
                     <ul>
                         <li>npx serve</li>
-                        <img id="serve" src="serve.png">
                     </ul>
+                    <img id="serve" src="serve.png">
                 </li>
-                <li> Крок 7: потрібно зберегти нашу зміну в коді, знизу є термінал, в нього вводите ось ці команди
+                <li class="practice"> Крок 7: потрібно зберегти нашу зміну в коді, знизу є термінал, в нього вводите ось ці команди
                     <ul>
                         <li>git add .</li>
                         <li>git commit -m "назва коміту"</li>
                         <li>git push</li>
                     </ul>
+                    <img id="commit" src="commit.png">
+                </li>
+                <li class="practice">
+                     Крок 8: Якщо у вас виникають конфлікти при коміті, це означаєш що інша людина теж зараз працює над проектом
+                </li>
+                <li>
+                    <img id="git-conflict" src="git1.png">
+                </li>
+                <li>
+                    <img id="git-conflict" src="git2.png">
+                </li>
+                <li>
+                    <img id="git-conflict" src="git3.png">
+                </li>
+                <li>
+                    <img id="git-conflict" src="git4.png">
                 </li>
             </ul>
-            <!--берете мій приклад коду та переробляєте дані під себе-->
-            <p class="eg">приклад нашої праці</p>
+        </section>
+        <section class="names">
+            <p class="example-text">Приклад нашої праці</p>
             <ul class="name">
                 <li>Name Surname, group: number</li>
                 <!-- за таким прикладо додаєте своє ім'я-->
                 <li>Vitalii Savchuk, group: IR-26</li>
-
+                <!--Додвавайти ваші імена між цими двома коментарями-->
                 <!--Ваші дані мають бути в секцій Ul(список) вона вже існує, а кожне ваше імя по окремому має бути в секції Li(елемент списку)-->
             </ul>
         </section>
-
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <p class="footer-text">Сподіваюсь що у вас все вдалось, коміт збергіся, а ваше Ім'я теж є в списку людей які впорались з завданням</p>
+        <div class="footer-links">
+            <a class="footer-link" href="https://www.instagram.com/vitaliy.savchuk_/?__pwa=1">Instagram</a>
+            <a class="footer-link" href="https://t.me/vitaliy_savchuk1">Telegram</a>
+        </div>
     </footer>
+    
 </body>
 
 </html>

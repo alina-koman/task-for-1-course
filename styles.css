@@ -2,7 +2,9 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
 header {
     width: 100%;
     height: 100px;
@@ -13,22 +15,13 @@ h1 {
     margin: 0;
     padding: 30px;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
-
-
 
 @media (max-width: 500px) {
     h1 {
         width: 70%;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        white-space: nowrap;
-        font-family: 'Poppins', sans-serif;
         font-size: 20px;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -36,19 +29,16 @@ h1 {
 }
 
 main {
-    background-color: blanchedalmond;
+    background-color: rgb(248, 205, 126);
+    padding: 20px;
 }
 
 h2 {
-    margin: 0;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+    text-align: center;
 }
 
-.text-git {
-    font-family: 'Poppins', sans-serif;
+.text-git, .boring {
     font-size: 18px;
     color: #333;
     line-height: 1.6;
@@ -60,16 +50,123 @@ h2 {
 }
 
 .boring {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #333;
-    line-height: 1.6;
-    margin: 20px;
-    padding: 10px;
     background-color: #ffb784;
-    border-left: 4px solid #1e4056;
-    border-radius: 5px;
+    border-left-color: #1e4056;
+}
+
+.practial-task {
+    background-color: blueviolet;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    margin: 0;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.name {
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+.practice {
+    margin-bottom: 25px;
+}
+
+.names {
+    margin: 0;
+    padding: 0;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #007acc;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+#link:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+#link:active {
+    transform: scale(0.95);
+}
+
+.foto {
+    display: flex;
+    width: 60%;
+}
+#code {
+    margin-right: 15px;
+}
+
+#code, #index, #html-code, #serve, #commit, #git-conflict {
+    width: 55%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.example-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
 }
 
 
+.footer {
+    background: linear-gradient(135deg, #6a5acd, #00bfff); 
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
 
+.footer-text {
+    margin-top: -20px;
+    font-size: 20px;
+    line-height: 1.5; 
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
